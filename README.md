@@ -1,6 +1,6 @@
-div align = "center">
+<div align = "center">
 
-<img height=200px src="./src/assets/dsc_logo.png">
+<img height=200px src="https://github.com/developer-student-club-thapar/officialWebsite/blob/master/src/assets/dsc_logo.png">
 
 # DEVELOPER STUDENT CLUBS TIET
 
