@@ -5,8 +5,9 @@ module.exports = {
         interpreter:"python3",
         args: '',
         autorestart: true,
-        watch: true,
+        watch: true,    
         pid: '/path/to/pid/file.pid',
         instances: 1,
+        sudo:true
     }]
 }; 
