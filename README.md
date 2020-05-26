@@ -1,3 +1,21 @@
+div align = "center">
+
+<img height=200px src="./src/assets/dsc_logo.png">
+
+# DEVELOPER STUDENT CLUBS TIET
+
+<a href="https://medium.com/developer-student-clubs-tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
+<a href="https://twitter.com/dsctiet"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://www.linkedin.com/company/developer-student-club-thapar"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://facebook.com/dscthapar"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
+<a href="https://instagram.com/dsc.tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+
+# [Library](https://library.dsctiet.tech)
+
+This is the repo for the Library Website of DSC Thapar Institute of Engineering and Technology, Patiala , Punjab. 
+This is the fork of the [Calibre](https://calibre-ebook.com) Repository, modified for the needs of our servers and userbase.
+</div>
+
 # About
 
 Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing [Calibre](https://calibre-ebook.com) database.
@@ -57,30 +75,6 @@ Optionally, to enable on-the-fly conversion from one ebook format to another whe
 \*** DEPRECATED \*** Support will be removed in future releases
 
 [Download](http://www.amazon.com/gp/feature.html?docId=1000765211) Amazon's KindleGen tool for your platform and place the binary named `kindlegen` in the `vendor` folder.
-
-## Docker Images
-
-Pre-built Docker images are available in these Docker Hub repositories:
-
-#### **Technosoft2000 - x64**
-+ Docker Hub - [https://hub.docker.com/r/technosoft2000/calibre-web/](https://hub.docker.com/r/technosoft2000/calibre-web/)
-+ Github - [https://github.com/Technosoft2000/docker-calibre-web](https://github.com/Technosoft2000/docker-calibre-web) 
-
-    Includes the Calibre `ebook-convert` binary.
-    + The "path to convertertool" should be set to `/opt/calibre/ebook-convert`
-
-#### **LinuxServer - x64, armhf, aarch64**
-+ Docker Hub - [https://hub.docker.com/r/linuxserver/calibre-web/](https://hub.docker.com/r/linuxserver/calibre-web/)
-+ Github - [https://github.com/linuxserver/docker-calibre-web](https://github.com/linuxserver/docker-calibre-web)
-+ Github - (Optional Calibre layer) - [https://github.com/linuxserver/docker-calibre-web/tree/calibre](https://github.com/linuxserver/docker-calibre-web/tree/calibre) 
-
-   This image has the option to pull in an extra docker manifest layer to include the Calibre `ebook-convert` binary.  Just include the environmental variable `DOCKER_MODS=linuxserver/calibre-web:calibre` in your docker run/docker compose file. **(x64 only)**
-  
-   If you do not need this functionality then this can be omitted, keeping the image as lightweight as possible.
-    
-   Both the Calibre-Web and Calibre-Mod images are rebuilt automatically on new releases of Calibre-Web and Calibre respectively, and on updates to any included base image packages on a weekly basis if required.
-   + The "path to convertertool" should be set to `/usr/bin/ebook-convert`
-   + The "path to unrar" should be set to `/usr/bin/unrar`
 
 # Wiki
 
