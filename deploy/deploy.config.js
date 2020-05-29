@@ -8,7 +8,7 @@ module.exports = {
             repo: 'https://github.com/developer-student-club-thapar/calibre-web',
             path:'/home/ubuntu/library-production',
             "post-setup":'pip3 install -r requirements.txt',
-            "post-deploy":"authbind --deep pm2 startOrRestart ./deploy/production.config.js"
+            "post-deploy":"pm2 startOrRestart ./deploy/production.config.js"
         },
     }
 } 
