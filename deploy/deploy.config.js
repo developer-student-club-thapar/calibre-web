@@ -3,7 +3,7 @@ module.exports = {
         production: {
             key: './deploy/Books',
             user: 'ubuntu',
-            host: ["library.dsctiet.tech"],
+            host: ["35.213.132.113"],
             ref: 'origin/master',
             repo: 'https://github.com/developer-student-club-thapar/calibre-web',
             path:'/home/ubuntu/library-production',
